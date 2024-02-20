@@ -1,0 +1,12 @@
+name: CoordinateSaver
+version: '1.0.1'
+main: me.limpan.coordinatesaver.CoordinateSaver
+description: Plugin that allows players to save coordinates
+api-version: '1.20'
+commands:
+  coords:
+    usage: "/coords <type>"
+    description: "Sends the saved coordinates"
+  saveCoords:
+    usage: "/saveCoords [global | local] <title>"
+    description: "Saved coordinates"
